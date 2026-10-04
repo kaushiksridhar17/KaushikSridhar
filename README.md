@@ -10,6 +10,7 @@ Plain HTML, CSS and JavaScript with no build step, hosted on GitHub Pages.
 - styles.css — colours, type and layout (follows the visitor's light or dark system setting)
 - script.js — keeps the footer year current
 - resume.pdf — the resume linked from the site
+- iamneo.pdf — iamneo internship completion letter, linked from Experience
 - favicon.svg — browser tab icon
 - .nojekyll — tells GitHub Pages to serve the files as they are
 

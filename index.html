@@ -12,7 +12,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,164 +23,142 @@
       <a class="brand" href="#top">Kaushik Sridhar</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a class="btn btn-small" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
     </nav>
   </header>
 
-  <main id="main">
-    <section class="hero wrap" id="top">
+  <main id="main" class="wrap">
+    <section class="hero" id="top">
       <h1>Kaushik Sridhar</h1>
-      <p class="role">Software Engineer</p>
-      <p class="intro">B.Tech in Computer Science and Engineering from Vellore Institute of Technology, Chennai. I work mainly on backend and full-stack development with Java, Spring Boot, TypeScript and SQL.</p>
+      <p class="role">Software Engineer, Chennai, India</p>
       <ul class="hero-links">
-        <li><a class="btn" href="resume.pdf" target="_blank" rel="noopener">Download resume</a></li>
-        <li><a class="btn btn-ghost" href="https://github.com/kaushiksridhar17" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a class="btn btn-ghost" href="https://www.linkedin.com/in/kaushiksridhar17" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a class="btn btn-ghost" href="mailto:kaushiksridhar17@gmail.com">Email</a></li>
+        <li><a class="btn" href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li>
+        <li><a href="mailto:kaushiksridhar17@gmail.com">Email</a></li>
+        <li><a href="https://github.com/kaushiksridhar17" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/kaushiksridhar17" target="_blank" rel="noopener">LinkedIn</a></li>
       </ul>
     </section>
 
     <section class="section" id="about" aria-labelledby="about-h">
-      <div class="wrap two-col">
-        <h2 id="about-h">About</h2>
-        <div class="col-body">
-          <p>I graduated in 2026 with a B.Tech in Computer Science and Engineering from VIT Chennai. During my degree I interned as a Java Full Stack Developer at iamneo Edutech, an NIIT venture, where I built a web application with Angular and Spring Boot.</p>
-          <p>Outside coursework, I have built a personal finance manager, a ticket resale platform with its own matching engine, and a crop disease classifier. I hold the AWS Certified Cloud Practitioner certification.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="projects" aria-labelledby="projects-h">
-      <div class="wrap two-col">
-        <h2 id="projects-h">Projects</h2>
-        <div class="col-body">
-          <article class="item">
-            <div class="item-head">
-              <h3>FinLedger</h3>
-              <a href="https://github.com/kaushiksridhar17/finledger" target="_blank" rel="noopener">GitHub</a>
-            </div>
-            <p class="item-sub">Personal finance manager for India</p>
-            <p class="item-stack">Java, Spring Boot, MySQL, React, Docker</p>
-            <ul>
-              <li>Developed a finance app with secure login, statement imports for 3 Indian banks, budget alerts and 187 tests.</li>
-              <li>Built a bill splitter that reduced group settle-up payments by 65% across 1,000 simulated groups, with no rounding loss.</li>
-              <li>Created a mutual fund tracker using daily fund prices, with annual returns matching Excel to 6 decimal places.</li>
-            </ul>
-          </article>
-
-          <article class="item">
-            <div class="item-head">
-              <h3>Face Value</h3>
-              <a href="https://github.com/kaushiksridhar17/ticket-resale" target="_blank" rel="noopener">GitHub</a>
-            </div>
-            <p class="item-sub">Anti-scalping ticket exchange</p>
-            <p class="item-stack">TypeScript, Fastify, PostgreSQL, Next.js, Docker</p>
-            <ul>
-              <li>Engineered a ticket resale platform with a price-time matching engine, event log and live WebSocket updates.</li>
-              <li>Sustained 10,000 concurrent claims at 1,573 per second with zero queue-order violations, capping resales at face value.</li>
-              <li>Secured venue entry with HMAC-SHA256 passes that expire in 30 seconds and are voided on resale.</li>
-            </ul>
-          </article>
-
-          <article class="item">
-            <div class="item-head">
-              <h3>Crop Doctor</h3>
-              <a href="https://github.com/kaushiksridhar17/crop-doctor" target="_blank" rel="noopener">GitHub</a>
-            </div>
-            <p class="item-sub">Multi-crop disease diagnosis</p>
-            <p class="item-stack">TensorFlow, Keras, Gradio, SQLite</p>
-            <ul>
-              <li>Trained EfficientNetV2-S on field photos from India, Uganda and Ghana to 0.80–0.95 macro-F1 across 4 crops.</li>
-              <li>Identified a dataset bias inflating accuracy by 32 points using a background-swap test, and rejected 2 flawed models.</li>
-              <li>Designed per-crop calibrated abstention that routes 7–28% of uncertain predictions to a SQLite review queue.</li>
-            </ul>
-          </article>
-        </div>
-      </div>
+      <h2 id="about-h">About</h2>
+      <p>I graduated in 2026 with a B.Tech in Computer Science and Engineering from Vellore Institute of Technology, Chennai. I work mainly on backend and full-stack development with Java, Spring Boot, TypeScript and SQL.</p>
+      <p>During my degree I interned as a Java Full Stack Developer at iamneo Edutech, where I built a web application with Angular and Spring Boot. Outside coursework, I have built a personal finance manager, a ticket resale platform with its own matching engine, and a crop disease classifier. I hold the AWS Certified Cloud Practitioner certification.</p>
     </section>
 
     <section class="section" id="experience" aria-labelledby="experience-h">
-      <div class="wrap two-col">
-        <h2 id="experience-h">Experience</h2>
-        <div class="col-body">
-          <article class="item">
-            <div class="item-head">
-              <h3>Java Full Stack Intern</h3>
-              <span class="item-date">Aug 2023 – Dec 2023</span>
-            </div>
-            <p class="item-sub">iamneo Edutech Pvt. Ltd. (an NIIT Venture), Remote</p>
-            <ul>
-              <li>Built a full-stack web application using Angular, TypeScript, Spring Boot, Spring Data JPA and MySQL, with user authentication, RESTful CRUD APIs, relational entity mappings, and validation on the frontend and backend.</li>
-              <li>Completed weekly engineering assignments covering Core Java, REST API design, SQL schema design and Angular–Spring Boot integration, using Git and Maven for version control and builds, and JUnit for testing.</li>
-            </ul>
-          </article>
+      <h2 id="experience-h">Experience</h2>
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Java Full Stack Intern</h3>
+          <span class="entry-date">Aug 2023 – Dec 2023</span>
         </div>
-      </div>
+        <p class="entry-sub">iamneo Edutech Pvt. Ltd., Remote</p>
+        <ul>
+          <li>Built a full-stack web application using Angular, TypeScript, Spring Boot, Spring Data JPA and MySQL, with user authentication, RESTful CRUD APIs, relational entity mappings, and validation on the frontend and backend.</li>
+          <li>Completed weekly engineering assignments covering Core Java, REST API design, SQL schema design and Angular–Spring Boot integration, using Git and Maven for version control and builds, and JUnit for testing.</li>
+        </ul>
+        <p class="entry-text"><a href="iamneo.pdf" target="_blank" rel="noopener">Internship certificate</a></p>
+      </article>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-h">
+      <h2 id="projects-h">Projects</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>FinLedger: Personal Finance Manager for India</h3>
+          <a href="https://github.com/kaushiksridhar17/finledger" target="_blank" rel="noopener">Code</a>
+        </div>
+        <p class="entry-stack">Java, Spring Boot, MySQL, React, Docker</p>
+        <ul>
+          <li>Developed a finance app with secure login, statement imports for 3 Indian banks, budget alerts and 187 tests.</li>
+          <li>Built a bill splitter that reduced group settle-up payments by 65% across 1,000 simulated groups, with no rounding loss.</li>
+          <li>Created a mutual fund tracker using daily fund prices, with annual returns matching Excel to 6 decimal places.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Face Value: Anti-Scalping Ticket Exchange</h3>
+          <a href="https://github.com/kaushiksridhar17/ticket-resale" target="_blank" rel="noopener">Code</a>
+        </div>
+        <p class="entry-stack">TypeScript, Fastify, PostgreSQL, Next.js, Docker</p>
+        <ul>
+          <li>Engineered a ticket resale platform with a price-time matching engine, event log and live WebSocket updates.</li>
+          <li>Sustained 10,000 concurrent claims at 1,573 per second with zero queue-order violations, capping resales at face value.</li>
+          <li>Secured venue entry with HMAC-SHA256 passes that expire in 30 seconds and are voided on resale.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Crop Doctor: Multi-Crop Disease Diagnosis</h3>
+          <a href="https://github.com/kaushiksridhar17/crop-doctor" target="_blank" rel="noopener">Code</a>
+        </div>
+        <p class="entry-stack">TensorFlow, Keras, Gradio, SQLite</p>
+        <ul>
+          <li>Trained EfficientNetV2-S on field photos from India, Uganda and Ghana to 0.80–0.95 macro-F1 across 4 crops.</li>
+          <li>Identified a dataset bias inflating accuracy by 32 points using a background-swap test, and rejected 2 flawed models.</li>
+          <li>Designed per-crop calibrated abstention that routes 7–28% of uncertain predictions to a SQLite review queue.</li>
+        </ul>
+      </article>
     </section>
 
     <section class="section" id="education" aria-labelledby="education-h">
-      <div class="wrap two-col">
-        <h2 id="education-h">Education</h2>
-        <div class="col-body">
-          <article class="item">
-            <div class="item-head">
-              <h3>Vellore Institute of Technology, Chennai</h3>
-              <span class="item-date">2026</span>
-            </div>
-            <p class="item-sub">B.Tech in Computer Science and Engineering, GPA 7.23</p>
-            <p class="item-text">Coursework: Data Structures, Object-Oriented Programming, Operating Systems, Computer Networks, Computer Architecture, Compiler Design, Database Management, Machine Learning, Software Engineering, Web Application Development, Cryptography and Network Security.</p>
-          </article>
-          <article class="item">
-            <div class="item-head">
-              <h3>Abu Dhabi Indian School, Abu Dhabi</h3>
-              <span class="item-date">2021</span>
-            </div>
-            <p class="item-sub">AISSCE (CBSE), 91.6%</p>
-          </article>
+      <h2 id="education-h">Education</h2>
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Vellore Institute of Technology, Chennai</h3>
+          <span class="entry-date">2026</span>
         </div>
-      </div>
+        <p class="entry-sub">B.Tech in Computer Science and Engineering, GPA 7.23</p>
+        <p class="entry-text">Coursework: Data Structures, Object-Oriented Programming, Operating Systems, Computer Networks, Computer Architecture, Compiler Design, Database Management, Machine Learning, Software Engineering, Web Application Development, Cryptography and Network Security.</p>
+      </article>
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Abu Dhabi Indian School, Abu Dhabi</h3>
+          <span class="entry-date">2021</span>
+        </div>
+        <p class="entry-sub">AISSCE (CBSE), 91.6%</p>
+      </article>
     </section>
 
     <section class="section" id="skills" aria-labelledby="skills-h">
-      <div class="wrap two-col">
-        <h2 id="skills-h">Skills</h2>
-        <div class="col-body">
-          <dl class="skills">
-            <dt>Languages</dt>
-            <dd>Java, Python, TypeScript, JavaScript, SQL, C, C++, HTML/CSS</dd>
-            <dt>Backend</dt>
-            <dd>Spring Boot, Spring Security, Spring Data JPA, Fastify, REST APIs, WebSockets, JWT Authentication</dd>
-            <dt>Frontend</dt>
-            <dd>React, Angular, Next.js, Tailwind CSS</dd>
-            <dt>Databases</dt>
-            <dd>MySQL, PostgreSQL, SQLite</dd>
-            <dt>Machine Learning</dt>
-            <dd>TensorFlow, Keras, EfficientNetV2, Gradio</dd>
-            <dt>Tools &amp; Testing</dt>
-            <dd>Docker, Git, Maven, JUnit, Vitest, Playwright</dd>
-          </dl>
-          <p class="cert">AWS Certified Cloud Practitioner (CLF-C02), Amazon Web Services · <a href="https://www.credly.com/badges/9d8b2bf4-975b-4c1b-a5bd-687be257e806/public_url" target="_blank" rel="noopener">Verify credential</a></p>
-        </div>
-      </div>
+      <h2 id="skills-h">Skills</h2>
+      <dl class="skills">
+        <dt>Languages</dt>
+        <dd>Java, Python, TypeScript, JavaScript, SQL, C, C++, HTML/CSS</dd>
+        <dt>Backend</dt>
+        <dd>Spring Boot, Spring Security, Spring Data JPA, Fastify, REST APIs, WebSockets, JWT Authentication</dd>
+        <dt>Frontend</dt>
+        <dd>React, Angular, Next.js, Tailwind CSS</dd>
+        <dt>Databases</dt>
+        <dd>MySQL, PostgreSQL, SQLite</dd>
+        <dt>Machine Learning</dt>
+        <dd>TensorFlow, Keras, EfficientNetV2, Gradio</dd>
+        <dt>Tools &amp; Testing</dt>
+        <dd>Docker, Git, Maven, JUnit, Vitest, Playwright</dd>
+      </dl>
+      <h3 class="sub-heading">Certifications</h3>
+      <p>AWS Certified Cloud Practitioner (CLF-C02), Amazon Web Services. <a href="https://www.credly.com/badges/9d8b2bf4-975b-4c1b-a5bd-687be257e806/public_url" target="_blank" rel="noopener">Verify on Credly</a></p>
     </section>
 
     <section class="section" id="contact" aria-labelledby="contact-h">
-      <div class="wrap two-col">
-        <h2 id="contact-h">Contact</h2>
-        <div class="col-body">
-          <p>Open to software engineering roles in backend and full-stack development. Based in Chennai, India.</p>
-          <ul class="contact-list">
-            <li><span>Email</span><a href="mailto:kaushiksridhar17@gmail.com">kaushiksridhar17@gmail.com</a></li>
-            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/kaushiksridhar17" target="_blank" rel="noopener">linkedin.com/in/kaushiksridhar17</a></li>
-            <li><span>GitHub</span><a href="https://github.com/kaushiksridhar17" target="_blank" rel="noopener">github.com/kaushiksridhar17</a></li>
-          </ul>
-        </div>
-      </div>
+      <h2 id="contact-h">Contact</h2>
+      <p>I am open to software engineering roles in backend and full-stack development.</p>
+      <dl class="contact">
+        <dt>Email</dt>
+        <dd><a href="mailto:kaushiksridhar17@gmail.com">kaushiksridhar17@gmail.com</a></dd>
+        <dt>LinkedIn</dt>
+        <dd><a href="https://www.linkedin.com/in/kaushiksridhar17" target="_blank" rel="noopener">linkedin.com/in/kaushiksridhar17</a></dd>
+        <dt>GitHub</dt>
+        <dd><a href="https://github.com/kaushiksridhar17" target="_blank" rel="noopener">github.com/kaushiksridhar17</a></dd>
+      </dl>
     </section>
   </main>
 
