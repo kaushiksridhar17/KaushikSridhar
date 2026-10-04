@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { FaFileDownload } from "react-icons/fa";
-import { about, profile, stats } from "@/lib/data";
+import { about, profile } from "@/lib/data";
 import Reveal from "./Reveal";
 import SectionHeader from "./SectionHeader";
 
@@ -36,15 +36,6 @@ export default function AboutSection() {
     <section id="about" className="section bg-mist">
       <div className="mx-auto max-w-site">
         <SectionHeader title="About Me" />
-
-        <div className="mb-20 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
-          {stats.map((s, i) => (
-            <Reveal key={s.label} delay={i * 0.08} className="card p-6 text-center">
-              <p className="font-heading text-4xl font-bold text-accent md:text-5xl">{s.value}</p>
-              <p className="mt-2 text-sm text-ink-soft">{s.label}</p>
-            </Reveal>
-          ))}
-        </div>
 
         <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-16">
           <Reveal x={-40}>

@@ -67,21 +67,6 @@ export default function HeroSection() {
           </a>
         </motion.div>
       </div>
-
-      {/* Scroll cue */}
-      <a
-        href="#about"
-        aria-label="Scroll to About"
-        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 md:block"
-      >
-        <span className="flex h-10 w-6 justify-center rounded-full border-2 border-line">
-          <motion.span
-            className="mt-2 h-2.5 w-1.5 rounded-full bg-accent"
-            animate={{ y: [0, 10, 0], opacity: [1, 0.3, 1] }}
-            transition={{ duration: 2, repeat: Infinity }}
-          />
-        </span>
-      </a>
     </section>
   );
 }

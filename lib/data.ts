@@ -29,13 +29,6 @@ export const navLinks = [
   { name: "Contact", href: "#contact" },
 ];
 
-export const stats = [
-  { value: "3", label: "End-to-end projects" },
-  { value: "187", label: "Tests in FinLedger" },
-  { value: "10K", label: "Concurrent claims load-tested" },
-  { value: "AWS", label: "Certified Cloud Practitioner" },
-];
-
 export const about = {
   heading: "Backend and full-stack software engineer",
   paragraphs: [
