@@ -10,7 +10,7 @@ All text, links, projects, skills and the timeline live in `lib/data.ts`. Edit t
 
 - Resume: replace `public/resume.pdf` (keep the name).
 - Internship certificate: `public/iamneo.pdf`.
-- Photo: add `public/photo.jpg` and it replaces the initials in the About section.
+- Photo: `public/kaushik.jpeg` is shown in the About section. To use a different file, change `photo` in `lib/data.ts`.
 
 ## Project layout
 

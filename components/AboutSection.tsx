@@ -7,7 +7,7 @@ import Reveal from "./Reveal";
 import SectionHeader from "./SectionHeader";
 
 function Portrait() {
-  // Show initials until public/photo.jpg is confirmed to exist
+  // Show initials until the photo (public/kaushik.jpeg) has loaded
   const [hasPhoto, setHasPhoto] = useState(false);
 
   useEffect(() => {

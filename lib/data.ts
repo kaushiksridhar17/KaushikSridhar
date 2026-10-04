@@ -14,9 +14,9 @@ export const profile = {
   github: "https://github.com/kaushiksridhar17",
   linkedin: "https://www.linkedin.com/in/kaushiksridhar17",
   resume: asset("resume.pdf"),
-  // To show a photo in the About section, add public/photo.jpg.
-  // Until then, the initials are shown instead.
-  photo: asset("photo.jpg"),
+  // Photo shown in the About section. The file lives at public/kaushik.jpeg.
+  // If the file is missing, the initials are shown instead.
+  photo: asset("kaushik.jpeg"),
 };
 
 export const navLinks = [
