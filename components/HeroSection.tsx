@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineLocationMarker } from "react-icons/hi";
 import { profile } from "@/lib/data";
 
 const socials = [
@@ -26,11 +25,6 @@ export default function HeroSection() {
       </div>
 
       <div className="relative mx-auto max-w-3xl text-center">
-        <motion.div {...rise(0)} className="mb-6 inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-1.5 text-sm text-ink-soft">
-          <HiOutlineLocationMarker className="text-accent" />
-          {profile.location}
-        </motion.div>
-
         <motion.h1 {...rise(0.08)} className="font-heading text-5xl font-bold text-ink md:text-6xl lg:text-7xl">
           {profile.name}
         </motion.h1>

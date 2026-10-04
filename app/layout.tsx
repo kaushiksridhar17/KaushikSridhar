@@ -6,12 +6,12 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const metadata: Metadata = {
   title: "Kaushik Sridhar | Software Engineer",
   description:
-    "Portfolio of Kaushik Sridhar, software engineer. B.Tech in Computer Science and Engineering from VIT Chennai, building backend and full-stack applications with Java, Spring Boot, TypeScript and SQL.",
+    "Portfolio of Kaushik Sridhar, a Computer Science graduate from VIT Chennai who builds full-stack web applications in Java and TypeScript, with project experience in machine learning.",
   authors: [{ name: "Kaushik Sridhar" }],
   icons: { icon: `${basePath}/favicon.svg` },
   openGraph: {
     title: "Kaushik Sridhar | Software Engineer",
-    description: "Backend and full-stack projects in Java, Spring Boot, TypeScript and PostgreSQL.",
+    description: "Full-stack and machine learning projects by Kaushik Sridhar, Computer Science graduate.",
     type: "website",
   },
 };

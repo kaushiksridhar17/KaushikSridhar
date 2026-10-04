@@ -40,7 +40,7 @@ export default function ExperienceSection() {
                       </span>
                       <h3 className="mt-3 text-lg font-bold text-ink">{item.title}</h3>
                       <p className="font-medium text-accent">{item.org}</p>
-                      <p className="mt-3 text-[0.95rem] leading-relaxed text-ink-soft">{item.detail}</p>
+                      {item.detail && <p className="mt-3 text-[0.95rem] leading-relaxed text-ink-soft">{item.detail}</p>}
                       {item.link && (
                         <a
                           href={item.link.href}

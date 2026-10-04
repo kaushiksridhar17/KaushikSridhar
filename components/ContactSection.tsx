@@ -1,14 +1,13 @@
 "use client";
 
 import { useState, type ChangeEvent, type FormEvent } from "react";
-import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPaperPlane } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
 import { profile } from "@/lib/data";
 import Reveal from "./Reveal";
 import SectionHeader from "./SectionHeader";
 
 const details = [
   { icon: FaEnvelope, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
-  { icon: FaMapMarkerAlt, label: "Location", value: profile.location },
 ];
 
 const socials = [
@@ -38,7 +37,7 @@ export default function ContactSection() {
       <div className="mx-auto max-w-site">
         <SectionHeader
           title="Get in Touch"
-          subtitle="I'm open to software engineering roles in backend and full-stack development."
+          subtitle="I'm open to software engineering roles and happy to talk about my work."
         />
 
         <div className="grid gap-12 lg:grid-cols-5">

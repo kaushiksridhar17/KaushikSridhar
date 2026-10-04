@@ -9,8 +9,7 @@ export const profile = {
   initials: "KS",
   role: "Software Engineer",
   summary:
-    "Computer Science graduate from VIT Chennai, building backend and full-stack applications with Java, Spring Boot, TypeScript and SQL.",
-  location: "Chennai, India",
+    "Computer Science graduate from VIT Chennai. I build full-stack web applications in Java and TypeScript, and have hands-on project experience in machine learning.",
   email: "kaushiksridhar17@gmail.com",
   github: "https://github.com/kaushiksridhar17",
   linkedin: "https://www.linkedin.com/in/kaushiksridhar17",
@@ -30,11 +29,11 @@ export const navLinks = [
 ];
 
 export const about = {
-  heading: "Backend and full-stack software engineer",
+  heading: "Computer Science graduate and software engineer",
   paragraphs: [
-    "I graduated in 2026 with a B.Tech in Computer Science and Engineering from Vellore Institute of Technology, Chennai. My work centres on backend and full-stack development with Java, Spring Boot, TypeScript and SQL.",
-    "During my degree I interned as a Java Full Stack Developer at iamneo Edutech, building a web application with Angular, Spring Boot and MySQL, with authentication, REST APIs and validation on both ends.",
-    "Outside coursework I have built a personal finance manager for Indian users, a ticket resale exchange with its own matching engine, and a crop disease classifier trained on field photos from three countries.",
+    "I graduated in 2026 with a B.Tech in Computer Science and Engineering from Vellore Institute of Technology, Chennai. My coursework covered the fundamentals, including data structures, operating systems, computer networks, computer architecture, compiler design and database management, along with machine learning, web application development, human-computer interaction and network security.",
+    "I've put that into practice through an internship and personal projects. At iamneo Edutech I built a full-stack web application with Angular, Spring Boot and MySQL. On my own I've built a personal finance app in Java, Spring Boot and React, a ticket resale exchange in TypeScript with Fastify, PostgreSQL and Next.js, and a crop disease image classifier in TensorFlow.",
+    "Across these I've focused on getting the details right: writing automated tests, load-testing under concurrent use, and checking results against independent references. I'm looking for a software engineering role where I can keep building on these foundations alongside an experienced team.",
   ],
 };
 
@@ -42,7 +41,7 @@ export type TimelineItem = {
   period: string;
   title: string;
   org: string;
-  detail: string;
+  detail?: string;
   link?: { label: string; href: string };
   current?: boolean;
 };
